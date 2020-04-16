@@ -363,6 +363,28 @@ header {
   padding-bottom: 160px;
 }
 
+@media(max-width: 472px){
+  .mobile-pad-top-lg{
+    padding-top: 25%;
+  }
+  .mobile-pad-btm-lg{
+    padding-bottom: 25%;
+  }
+  .dear-beloved{
+    padding-top: 25%;
+    padding-bottom: 40%;
+  }
+}
+
+
+@media(max-width: 375px){
+  .dear-beloved{
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+}
+
+
 
 #be-the-first {
   /* background: url(/images/islam4.jpg) #231f20 no-repeat center center fixed; */
