@@ -2,7 +2,6 @@ var express = require ("express"),
     port = process.env.PORT || 5000,
     methodOverride = require("method-override"),
     cookieParser        = require("cookie-parser"),
-    flash      = require("connect-flash"),
     bodyParser = require("body-parser");
 
 app = express();
@@ -19,5 +18,5 @@ app.get("/", function(req, res) {
 
 
 app.listen(port, function(){
-    console.log("server just started")
+    console.log("MQJ server just started")
 });

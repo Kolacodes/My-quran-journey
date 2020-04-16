@@ -1,12 +1,3 @@
-/*!
- * SNOW Landing Page Theme
- *
- * Created by Visual Soldiers
- * Visit us at http://www.visualsoldiers.com
- *
- * Handcrafted with love in Atlanta!
- */
-
 
 /* ==========================================================================
    Global styles
@@ -19,6 +10,7 @@ p, .lead {
 	font-family: 'Raleway', sans-serif;
 }
 
+
 h1 {
   font-size: 55px;
   line-height: 55px;
@@ -30,7 +22,7 @@ h1 {
 h2 {
   font-size: 40px;
   line-height: 40px;
-  etter-spacing: -0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -156,7 +148,6 @@ a:hover, a:focus {
 
 
 
-
 /*-----------------Margins------------------*/
 .margin-0 {
     margin-bottom: 0 !important;
@@ -272,10 +263,6 @@ a:hover, a:focus {
     border-color: transparent;
 }
 
-/*.logo img {
-	margin-top: 6px;
-}
-
 
 
 /* ==========================================================================
@@ -377,10 +364,10 @@ header {
 }
 
 
-
-
 #be-the-first {
-  background: url(/images/islam4.jpg) #231f20 no-repeat center center fixed;
+  /* background: url(/images/islam4.jpg) #231f20 no-repeat center center fixed; */
+  background-image: linear-gradient(#2a0845, #6441a5);
+
   /*background: #6d3f96;*/
 
   min-height: 300px;
@@ -456,9 +443,16 @@ hr.line {
 }
 
 footer {
-  background: #ffffff;
+  background: #70cbce;
+  color: white;
   padding: 40px 0px;
 }
+
+
+footer p {
+  color: white;
+}
+
 
 .social li a:hover {
   opacity: 0.5;
